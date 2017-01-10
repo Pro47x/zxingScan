@@ -1,0 +1,25 @@
+ext {
+
+    android = [
+            versionCode             : 1,
+            versionName             : "1",
+            compileSdkVersion       : 25,
+            buildToolsVersion       : "25.0.1",
+            minSdkVersion           : 21,
+            targetSdkVersion        : 25,
+            androidSupportSdkVersion: "25.1.0",
+            retrofitSdkVersion      : "2.1.0",
+            dagger2SdkVersion       : "2.6",
+            rxlifecycleSdkVersion   : "0.6.1",
+            espressoSdkVersion      : "2.2.2"
+    ]
+
+    dependencies = [
+            "butterknife"             : "com.jakewharton:butterknife:8.4.0",
+            "butterknife-compiler"    : "com.jakewharton:butterknife-compiler:8.4.0",
+    ]
+}
+
+def toString(def b) {
+    return String.valueOf(b)
+}
